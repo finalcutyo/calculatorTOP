@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    width: 30vw;
+}
+
+.buttons {
+    width: 6vw;
+    height: 4vh;
+    font-size: larger;
+}
+
+#display {
+    display: flex;
+    width: 95%;
+    height: 5vh;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    font-weight: 700;
+    font-size: xx-large;
+    background-color: rgb(91, 122, 60);
+    margin: 1vh auto;
+    padding: .5vh .5vw;
+}
