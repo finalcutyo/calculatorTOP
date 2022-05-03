@@ -29,16 +29,21 @@
     font-size: larger;
 }
 
-#display {
+#displayContainer {
     display: flex;
     width: 95%;
     height: 5vh;
     text-align: right;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     font-weight: 700;
     font-size: xx-large;
     background-color: rgb(91, 122, 60);
     margin: 1vh auto;
     padding: .5vh .5vw;
+}
+
+#l-display {
+    font-weight: 100;
+    font-size: 50%;
 }

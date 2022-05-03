@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <script src="./script.js" refer></script>
+    <script src="./script.js" defer></script>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,10 @@
     <header><h1>Calculator</h1></header>
     <div class="container">
         <div class="calculator">
-            <div id="display">TEST</div>
+            <div id="displayContainer">
+                <div id="l-display">LEFT</div>
+                <div id="r-display">RIGHT</div>
+            </div>
             <div class="row">
                 <button class="buttons" id="allClear">AC</button>
                 <button class="buttons" id="entryClear">CE</button>
